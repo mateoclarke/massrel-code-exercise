@@ -1,0 +1,59 @@
+body {
+	background: #24252a;
+	background: url(../img/metal.png) ;
+}
+
+.app-header {
+	margin: 15% 0 50px;
+	text-align: center;
+}
+
+.app-header img {
+	max-width: 554px;
+}
+
+.app-leaderboard {
+	margin: 0 auto;
+	border-radius: 20px;
+	border-width: 5px;
+	border-color:  #ffffff;
+	border-style: solid;
+	background-color:  rgba(29, 29, 29, 0.9);
+	width: 444px;
+	height: 244px;
+}
+
+.band-row {
+	width: 100%;
+	display: block;
+	float: left;
+	border-bottom: 1px solid gray;
+}
+
+.band-row-last {
+	border: none;
+}
+
+.band-name {
+	margin: 15px 0 15px 30px;
+	float: left;
+	font-family: Helvetica;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.band-score {
+	margin: 15px 30px;
+	float: right;
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: lighter;
+	color: #fff;
+}
+
+.band-count {
+	font-size: 18px;
+	font-weight: bold;
+	color: #9e0b0f;
+}
